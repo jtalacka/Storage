@@ -1,0 +1,15 @@
+Įsijungus programą duodami trys pasirinkimai
+1.Check Quantity
+2.Expiration date
+3.Quit
+Įvedus skaičių 1 ir paspaudus enter prašoma įvesti skaičių atitinkanti prekių kiekį.
+Visos prekės, kurių kiekis bus mažesnis už įvestą skaičių bus išvestos komandinėje eilutėje ir bus grįžtama į pradinį ekraną.
+Jeigu Įvestyje bus kitokių simbolių, negu skaičiai, bus pranešta apie blogą formatą ir programa grįš į pradinį ekraną.
+Įvedus skaičių 2 ir paspaudus enter prašoma įvesti datą formatu yyyy-mm-dd
+
+Jeigu formatas bus blogas išves pranešimą apie blogą formatą ir grįš į pradinį ekraną.
+
+Įvedus skaičių 3 ir paspaudus enter programa pabaigiama.
+
+StorageController klasėje, start metode prie CSVReader reikia įsirašyti savo failo kelią.
+
